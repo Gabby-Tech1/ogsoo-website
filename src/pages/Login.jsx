@@ -1,4 +1,4 @@
-import Footer2 from "../components/Footer2";
+import Footer1 from "../components/Footer1";
 import LoginLeft from "../components/LoginLeft";
 import LoginRight from "../components/LogInRight";
 
@@ -18,7 +18,7 @@ const Login = () => {
           <LoginLeft />
         </div>
       </section>
-      <Footer2 />
+      <Footer1 />
     </div>
   );
 };

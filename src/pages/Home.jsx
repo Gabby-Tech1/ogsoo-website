@@ -1,4 +1,4 @@
-import Footer from "../components/Footer";
+import Footer1 from "../components/Footer1";
 import HomeIntro from "../components/HomeIntro";
 import PopularLeagues from "../components/PopularLeagues";
 import BetSlips from "../components/BetSlips";
@@ -12,7 +12,7 @@ const Home = () => {
         <PopularLeagues />
         <BetSlips />
       </main>
-      <Footer />
+      <Footer1 />
     </div>
   );
 };

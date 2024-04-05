@@ -51,31 +51,30 @@ const ContactCard = memo(() => {
                   Email:
                 </div>
                 <input
-                  className="[outline:none] bg-white self-stretch h-8 relative rounded-11xl box-border min-w-[250px] z-[1] border-[2px] border-solid border-dimgray-100"
-                  type="text"
+                  className="[outline:none] p-2 text-xl bg-white self-stretch h-8 relative rounded-11xl box-border min-w-[250px] z-[1] border-[2px] border-solid border-dimgray-100"
+                  type="email"
                 />
-                <div className="absolute !m-[0] bottom-[-5px] left-[0px] font-medium inline-block min-w-[73px] z-[1]">
+                <div className="absolute !my-[5px] bottom-[-5px] left-[0px] font-medium inline-block min-w-[73px] z-[1]">
                   Subject:
                 </div>
               </div>
               <div className="self-stretch h-[203px] relative">
                 <input
-                  className="[outline:none] bg-white absolute top-[0px] left-[0px] rounded-11xl box-border w-[454px] h-8 z-[2] border-[2px] border-solid border-dimgray-100"
+                  className="[outline:none] p-2 text-xl bg-white absolute top-[0px] left-[0px] rounded-11xl box-border w-[454px] h-8 z-[2] border-[2px] border-solid border-dimgray-100"
                   type="text"
                 />
-                <div className="absolute top-[32px] left-[0px] font-medium inline-block min-w-[87px] z-[1]">
+                <div className="absolute top-[32px] my-[7px] left-[0px] font-medium inline-block min-w-[87px] z-[1]">
                   Message:
                 </div>
                 <textarea
-                  className="bg-white h-[129px] w-[454px] [outline:none] absolute top-[58px] left-[0px] rounded-11xl box-border z-[1] border-[2px] border-solid border-dimgray-100"
-                  rows={6}
-                  cols={23}
+                  className="bg-white p-2 text-xl h-[129px] mt-[8px] w-[454px] [outline:none] absolute top-[58px] left-[0px] rounded-11xl box-border z-[1] border-[2px] border-solid border-dimgray-100"
+                  
                 />
               </div>
-              <div className="self-stretch rounded-11xl bg-white box-border flex flex-row items-start justify-center pt-px px-5 pb-0 whitespace-nowrap max-w-full z-[1] text-7xl text-salmon-100 border-[5px] border-solid border-salmon-100">
-                <div className="h-10 w-[454px] relative rounded-11xl bg-white box-border hidden max-w-full border-[5px] border-solid border-salmon-100" />
+              <a href="#" className="self-stretch no-underline rounded-11xl bg-white box-border flex flex-row items-start justify-center pt-px px-5 pb-0 whitespace-nowrap max-w-full z-[1] text-7xl text-salmon-100 border-[5px] border-solid border-salmon-100">
+                <div className="h-10 w-[454px] relative rounded-11xl bg-white box-border hidden max-w-full border-[3px] border-solid border-salmon-100" />
                 <b className="relative z-[2]">SEND A MESSAGE</b>
-              </div>
+              </a>
             </div>
           </div>
         </div>

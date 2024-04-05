@@ -55,7 +55,7 @@ const HomeIntro = memo(() => {
             JOIN VIP PAGE
           </div>
         </div>
-        <button className="cursor-pointer [border:none] pt-[15px] px-3 pb-3 bg-[transparent] absolute top-[485px] left-[339px] w-[412px] flex flex-row items-start justify-end box-border max-w-full">
+        <a href="https://t.me/OGODDS080" className="cursor-pointer no-underline [border:none] pt-[15px] px-3 pb-3 bg-[transparent] absolute top-[485px] left-[339px] w-[412px] flex flex-row items-start justify-end box-border max-w-full">
           <div className="h-[33px] w-[356px] relative text-6xl font-semibold font-poppins-medium-25 text-white text-left inline-block shrink-0 max-w-full box-border pl-5 z-[3] mq450:text-xl">
             JOIN TELEGRAM CHANNEL
           </div>
@@ -71,7 +71,7 @@ const HomeIntro = memo(() => {
               src="/icons8telegram@2x.png"
             />
           </div>
-        </button>
+        </a>
         <div className="absolute top-[309px] left-[45px] text-9xl font-semibold text-gray-400 inline-block w-[657px] h-[131.9px] z-[2] mq450:text-3xl">
           Your NO. 1 sports prediction channel, we provide you with amazing and
           accurate bet tips and predictions.

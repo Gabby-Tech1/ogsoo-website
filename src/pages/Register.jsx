@@ -1,4 +1,4 @@
-import Footer2 from "../components/Footer2";
+import Footer1 from "../components/Footer1";
 import RegisterDetails from "../components/RegisterDetails";
 import RegisterRightDetails from "../components/RegisterRightDetails";
 
@@ -18,7 +18,7 @@ const Register = () => {
           <RegisterDetails />
         </div>
       </section>
-      <Footer2 />
+      <Footer1 />
     </div>
   );
 };

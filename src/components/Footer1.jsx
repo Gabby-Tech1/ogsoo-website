@@ -128,28 +128,29 @@ const Footer1 = memo(
                   </div>
                   <div className="flex flex-row items-start justify-start py-0 px-12 box-border max-w-full mq450:pl-5 mq450:pr-5 mq450:box-border">
                     <div className="flex flex-row items-start justify-center gap-[8px] mq450:flex-wrap">
-                      <div className="h-[76px] flex flex-col items-start justify-start py-0 pr-[5px] pl-0 box-border">
+                      <a href="https://t.me/OGODDS080" className="h-[76px] flex flex-col items-start justify-start py-0 pr-[5px] pl-0 box-border">
                         <img
                           className="w-[76px] h-[76px] relative rounded-27xl object-cover z-[1]"
                           loading="lazy"
                           alt=""
                           src="/icons8telegram-1@2x.png"
                         />
-                      </div>
-                      <div className="h-[79px] flex flex-col items-start justify-start pt-[3px] px-0 pb-0 box-border">
+                      </a>
+                      <a href="https://www.tiktok.com/@ogodds80?_t=8IGxh2e7F26&_r=1" className="h-[79px] flex flex-col items-start justify-start pt-[3px] px-0 pb-0 box-border">
                         <img
                           className="w-[76px] h-[76px] relative rounded-19xl object-cover z-[1]"
                           loading="lazy"
                           alt=""
                           src="/icons8tiktok50@2x.png"
                         />
-                      </div>
+                      </a>
+                      <a href="https://x.com/monster24277?s=21">
                       <img
                         className="h-[76px] w-[76px] relative object-cover z-[1]"
                         loading="lazy"
                         alt=""
                         src="/icons8twitter48@2x.png"
-                      />
+                      /></a>
                     </div>
                   </div>
                 </div>
